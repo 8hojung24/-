@@ -20,8 +20,6 @@
  ![image](https://user-images.githubusercontent.com/67528774/203710376-ac89fa07-f194-4261-b9b4-350528510c0e.png)
 
 
- 
-
 5. readBinTree() 함수:
  “hw_input.txt”읽어서 바이너리트리 *pTree1, *pTree2에 저장, 
  pTree1과 pTree2의 노드개수 *count1, *count2에 저장
@@ -45,10 +43,9 @@ searchWithParentNodeBST() 함수
   ![image](https://user-images.githubusercontent.com/67528774/203710459-5446d66d-aa91-4532-87c7-c42c76a6051a.png)
 
 
- 
 9. main 함수
   ![image](https://user-images.githubusercontent.com/67528774/203710506-fa0d9db0-cb04-49b5-b5a4-0d606be879b8.png)
-
+  
  파일을 읽어서 저장할 바이너리트리 pTree1, pTree2를 만들고, readBinTree()를 이용해 읽어온다.
  만약 pTree1 노드의 수가 pTree2 노드의 수보다 많으면, pTree1의 루트녿가 mergeTree의 루트노드가 될 수 있도록 하고, 추가된 엣지의 개수를 구하고
  만약 pTree2 노드의 수가 pTree1 노드의 수보다 많으면, pTree2의 루트녿가 mergeTree의 루트노드가 될 수 있도록 하고, 추가된 엣지의  개수를 구한다.
