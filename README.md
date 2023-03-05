@@ -1,19 +1,19 @@
 바이너리 트리병합
 1. 바이너리 탐색 트리의 구조 정의
-  ![image](https://user-images.githubusercontent.com/67528774/203710246-bd129c92-cba6-411c-bd8a-4c6595eed05c.png)
+  ![image](https://user-images.githubusercontent.com/67528774/203710246-bd129c92-cba6-411c-bd8a-4c6595eed05c.png width="100" height="100")
 
 
 2. 바이너리 탐색트리, 바이너리 탐색트리노드를 생성
-  ![image](https://user-images.githubusercontent.com/67528774/203710266-0783303c-6d15-4411-97e2-dcc83dcbc380.png){: width="100" height="100"}
-  ![image](https://user-images.githubusercontent.com/67528774/203710289-7e6f00d0-de9a-485b-90bc-b363837feb1c.png){: width="100" height="100"}
+  ![image](https://user-images.githubusercontent.com/67528774/203710266-0783303c-6d15-4411-97e2-dcc83dcbc380.png width="100" height="100")
+  ![image](https://user-images.githubusercontent.com/67528774/203710289-7e6f00d0-de9a-485b-90bc-b363837feb1c.png width="100" height="100")
 
 
 3. 바이너리 탐색트리에 값 추가
-  ![image](https://user-images.githubusercontent.com/67528774/203710310-ec0ff48f-1f80-4738-a752-c9e7199ee2e2.png){: width="100" height="100"}
+  ![image](https://user-images.githubusercontent.com/67528774/203710310-ec0ff48f-1f80-4738-a752-c9e7199ee2e2.png width="100" height="100")
  getParentNode() 함수: 입력한 키 값과 트리의 키 값들을 비교해서 입력한 키값을 가질 노드의 부모노드를 포인터로 반환하고, 성공여부를 0과 1로 반환한다.
-  ![image](https://user-images.githubusercontent.com/67528774/203710333-d18263e6-db1f-474d-824a-da757fd08753.png){: width="100" height="100"}
+  ![image](https://user-images.githubusercontent.com/67528774/203710333-d18263e6-db1f-474d-824a-da757fd08753.png width="100" height="100")
  insertNewBinSearchTreeNode() 함수: 바이너리트리에 새로운노드 추가
-  ![image](https://user-images.githubusercontent.com/67528774/203710347-1bb2ff9b-a9ac-4355-abf4-698f5096512f.png){: width="100" height="100"}
+  ![image](https://user-images.githubusercontent.com/67528774/203710347-1bb2ff9b-a9ac-4355-abf4-698f5096512f.png width="100" height="100")
 
 
 4. 바이너리트리, 노드 삭제
