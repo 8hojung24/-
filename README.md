@@ -1,6 +1,6 @@
 ### 바이너리 트리병합
 1. 바이너리 탐색 트리의 구조 정의
-<img src="https://user-images.githubusercontent.com/67528774/203710246-bd129c92-cba6-411c-bd8a-4c6595eed05c.png width="300" height="100"/>
+<img src="https://user-images.githubusercontent.com/67528774/203710246-bd129c92-cba6-411c-bd8a-4c6595eed05c.png" width="300" height="100"/>
 
 2. 바이너리 탐색트리, 바이너리 탐색트리노드를 생성
 <image src="https://user-images.githubusercontent.com/67528774/203710266-0783303c-6d15-4411-97e2-dcc83dcbc380.png" width="300" height="100"/>
