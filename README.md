@@ -1,4 +1,13 @@
-### 바이너리 트리병합
+### 바이너리 트리병합 과정
+1. 파일을 읽어서 저장할 바이너리트리 pTree1, pTree2를 만들고, readBinTree()를 이용해 읽어온다.
+2. 만약 pTree1 노드의 수가 pTree2 노드의 수보다 많으면, pTree1의 루트녿가 mergeTree의 루트노드가 될 수 있도록 하고, 추가된 엣지의 개수를 구한다.
+3. 만약 pTree2 노드의 수가 pTree1 노드의 수보다 많으면, pTree2의 루트녿가 mergeTree의 루트노드가 될 수 있도록 하고, 추가된 엣지의개수를 구한다.
+4. 삭제된 엣지(dNum)의 개수는 insertTree의 헤더노드를 제외하여 추가된 엣지의 개수(nNum)-1 이 된다.
+5. mergeTree 와 nNum, dNum을 파일에 작성해준다.
+6. 다 사용한 바이너리 트리를 제거한다.
+
+
+### 실습
 1. 바이너리 탐색 트리의 구조 정의
 <img src="https://user-images.githubusercontent.com/67528774/203710246-bd129c92-cba6-411c-bd8a-4c6595eed05c.png" width="300" height="100"/>
 
@@ -35,11 +44,3 @@ searchWithParentNodeBST() 함수
 
 9. main 함수
 <img src="https://user-images.githubusercontent.com/67528774/203710506-fa0d9db0-cb04-49b5-b5a4-0d606be879b8.png" width="300" height="100"/>
-
-### 과정
-1. 파일을 읽어서 저장할 바이너리트리 pTree1, pTree2를 만들고, readBinTree()를 이용해 읽어온다.
-2. 만약 pTree1 노드의 수가 pTree2 노드의 수보다 많으면, pTree1의 루트녿가 mergeTree의 루트노드가 될 수 있도록 하고, 추가된 엣지의 개수를 구한다.
-3. 만약 pTree2 노드의 수가 pTree1 노드의 수보다 많으면, pTree2의 루트녿가 mergeTree의 루트노드가 될 수 있도록 하고, 추가된 엣지의개수를 구한다.
-4. 삭제된 엣지(dNum)의 개수는 insertTree의 헤더노드를 제외하여 추가된 엣지의 개수(nNum)-1 이 된다.
-5. mergeTree 와 nNum, dNum을 파일에 작성해준다.
-6. 다 사용한 바이너리 트리를 제거한다.
